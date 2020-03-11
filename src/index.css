@@ -10136,7 +10136,7 @@ h3 {
 }
 .testimonial_content .testimonial_cards .owl-item {
   position: relative;
-  width: 365px !important;
+  /* width: 365px !important; */
   height: 418px;
   padding: 2.25em 1.875em;
   border-radius: 16px;
@@ -10158,7 +10158,7 @@ h3 {
 }
 @media screen and (max-width: 400px) {
   .testimonial_content .testimonial_cards .owl-item {
-    width: 300px !important;
+    /* width: 300px !important; */
   }
 }
 .testimonial_content .testimonial_cards .owl-item .testimonial_card {
@@ -10167,6 +10167,9 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.testimonial_content .testimonial_cards .owl-item .testimonial_card img {
+  width: 49px;
 }
 @media (max-width: 991.98px) {
   .testimonial_content .testimonial_cards .owl-item .testimonial_card img {
