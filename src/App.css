@@ -26,3 +26,13 @@
     opacity: 1;
     background: #17CE6A;
 }
+
+.owl-carousel .owl-stage{
+    display: flex;
+    padding: 0 16px;
+}
+
+.testimonial_content .testimonial_cards .owl-item{
+    flex-grow: 1;
+    flex-basis: 0;
+}
