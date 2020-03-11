@@ -21,3 +21,8 @@
     font-style: normal;
     font-weight: normal;
 }
+
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+    opacity: 1;
+    background: #17CE6A;
+}

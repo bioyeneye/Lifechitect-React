@@ -9975,6 +9975,18 @@ h3 {
 .event_content .scrolling-wrapper .card .six {
   background: linear-gradient(0deg, #27B072, #27B072);
 }
+.event_content .scrolling-wrapper .card .seven{
+  background: #81D134;
+}
+.event_content .scrolling-wrapper .card .eight{
+  background: linear-gradient(0deg, #36C0F9, #36C0F9), linear-gradient(90deg, #BCD1FF 0%, #89AEFF 100%);
+}
+.event_content .scrolling-wrapper .card .nine{
+  background: linear-gradient(0deg, #B89560, #B89560), #BCD1FF;
+}
+.event_content .scrolling-wrapper .card .ten{
+  background: linear-gradient(0deg, #C169FC, #C169FC), linear-gradient(90deg, rgba(188, 209, 255, 0.6) 0%, rgba(137, 174, 255, 0.6) 100%);
+}
 .event_content .scrolling-wrapper::-webkit-scrollbar {
   display: none;
 }
@@ -10135,7 +10147,7 @@ h3 {
 }
 @media (max-width: 991.98px) {
   .testimonial_content .testimonial_cards .owl-item {
-    width: 350px !important;
+    width: 329px !important;
     height: 350px;
   }
 }

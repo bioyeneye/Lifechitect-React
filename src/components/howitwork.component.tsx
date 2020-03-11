@@ -2,7 +2,7 @@ import React from 'react';
 
 const HowItWorksSection = () => {
     return (
-        <section className="work">
+        <section className="work" id="howItWorks">
             <div className="work_content row justify-content-center">
                 <div className="col-12">
                     <h3 className="header-3 text-center">
