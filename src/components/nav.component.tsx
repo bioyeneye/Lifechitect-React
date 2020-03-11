@@ -35,7 +35,7 @@ export default class Nav extends Component<{}, NavState> {
                 </a>
                 <ul className="nav d-none d-md-flex">
                     <li className="nav-item">
-                        <a className="nav-link" href={createEmptyLink()}>How It Works</a>
+                        <a className="nav-link" href="#howItWorks">How It Works</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#works">Contact Us</a>
