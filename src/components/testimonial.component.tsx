@@ -34,14 +34,14 @@ export default class TestimonialSection extends Component<{}, TestimonialSection
                 0: {
                     items: 1,
                 },
-                599: {
+                652: {
                     items: 2,
                 },
-                899: {
-                    items: 2,
+                1414: {
+                    items: 3
                 },
-                1199: {
-                    items: 2,
+                1440: {
+                    items: 3,
                 },
                 1499: {
                     items: 3,
