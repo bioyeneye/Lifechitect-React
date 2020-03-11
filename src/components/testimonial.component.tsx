@@ -38,11 +38,11 @@ const TestimonialSection = () => {
                                 </div>
                                 <div className="text">
                                     <p className="header-3">Ayo</p>
-                                    <p className="subText">ex-serial procrastinator & finance contractor</p>
+                                    <p className="subText">content developer & graphics designer</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="testimonial_card">
+                        {/* <div className="testimonial_card">
                             <img src="svgs/“.svg" alt="quote" />
                             <p className="review">
                                 Lifechitect helped me become intentional about my life. I went from being always busy
@@ -55,6 +55,22 @@ const TestimonialSection = () => {
                                 <div className="text">
                                     <p className="header-3">James</p>
                                     <p className="subText">ex-serial procrastinator & finance contractor</p>
+                                </div>
+                            </div>
+                        </div> */}
+                        <div className="testimonial_card">
+                            <img src="svgs/“.svg" alt="quote" />
+                            <p className="review">
+                                Lifechitect helped me become intentional about my life. I went from being always busy
+                                with no results in making sure every action aligned with my goals for each day.
+                                </p>
+                            <div className="reviewer">
+                                <div className="image">
+                                    <img src="images/Avatar.png" alt="Author" />
+                                </div>
+                                <div className="text">
+                                    <p className="header-3">Ruky</p>
+                                    <p className="subText">mum of 3 & environmental consultant</p>
                                 </div>
                             </div>
                         </div>
