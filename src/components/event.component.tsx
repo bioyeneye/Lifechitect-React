@@ -155,6 +155,101 @@ const EventSection = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="card">
+                            <div className="card_illustration seven">
+                                <img src="svgs/selfcare.svg" alt="Illustration" />
+                            </div>
+                            <div className="card_text">
+                                <h4 className="card_text_header header-3">Self Care</h4>
+                                <div className="card_text_details d-flex">
+                                    <div className="left">
+                                        <p className="header">Target:</p>
+                                        <p className="body">
+                                            20+ hrs<br />
+                                        per week
+                                    </p>
+                                    </div>
+                                    <div className="right">
+                                        <p className="header">Benefit:</p>
+                                        <p className="body">
+                                            Good<br />
+                                        Health
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card_illustration eight">
+                                <img src="svgs/sleep.svg" alt="Illustration" />
+                            </div>
+                            <div className="card_text">
+                                <h4 className="card_text_header header-3">Sleep</h4>
+                                <div className="card_text_details d-flex">
+                                    <div className="left">
+                                        <p className="header">Target:</p>
+                                        <p className="body">
+                                            29+ hrs<br />
+                                        per week
+                                    </p>
+                                    </div>
+                                    <div className="right">
+                                        <p className="header">Benefit:</p>
+                                        <p className="body">
+                                            Recovery
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card_illustration nine">
+                                <img src="svgs/errand.svg" alt="Illustration" />
+                            </div>
+                            <div className="card_text">
+                                <h4 className="card_text_header header-3">Errand</h4>
+                                <div className="card_text_details d-flex">
+                                    <div className="left">
+                                        <p className="header">Target:</p>
+                                        <p className="body">
+                                            {'<5'} hrs<br />
+                                        per week
+                                    </p>
+                                    </div>
+                                    <div className="right">
+                                        <p className="header">Benefit:</p>
+                                        <p className="body">
+                                            Support Core<br />
+                                        Activities
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card_illustration ten">
+                                <img src="svgs/travel.svg" alt="Illustration" />
+                            </div>
+                            <div className="card_text">
+                                <h4 className="card_text_header header-3">Travel</h4>
+                                <div className="card_text_details d-flex">
+                                    <div className="left">
+                                        <p className="header">Target:</p>
+                                        <p className="body">
+                                            {'<10'} hrs<br />
+                                        per week
+                                    </p>
+                                    </div>
+                                    <div className="right">
+                                        <p className="header">Benefit:</p>
+                                        <p className="body">
+                                            Commuting
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -163,3 +258,5 @@ const EventSection = () => {
 }
 
 export default EventSection;
+
+
