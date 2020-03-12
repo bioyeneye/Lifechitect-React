@@ -189,7 +189,7 @@ const EventSection = () => {
                                     <div className="left">
                                         <p className="header">Target:</p>
                                         <p className="body">
-                                            29+ hrs<br />
+                                            49+ hrs<br />
                                         per week
                                     </p>
                                     </div>
@@ -212,7 +212,7 @@ const EventSection = () => {
                                     <div className="left">
                                         <p className="header">Target:</p>
                                         <p className="body">
-                                            {'<5'} hrs<br />
+                                            {'< 5'} hrs<br />
                                         per week
                                     </p>
                                     </div>
@@ -236,7 +236,7 @@ const EventSection = () => {
                                     <div className="left">
                                         <p className="header">Target:</p>
                                         <p className="body">
-                                            {'<10'} hrs<br />
+                                            {'< 10'} hrs<br />
                                         per week
                                     </p>
                                     </div>
