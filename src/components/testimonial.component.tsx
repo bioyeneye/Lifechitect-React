@@ -31,19 +31,33 @@ export default class TestimonialSection extends Component<{}, TestimonialSection
             rewind: this.state.rewind,
             autoplay: this.state.autoplay,
             responsive: {
-                0: {
+                // 0: {
+                //     items: 1,
+                // },
+                // 652: {
+                //     items: 2,
+                // },
+                // 1414: {
+                //     items: 3
+                // },
+                // 1440: {
+                //     items: 3,
+                // },
+                // 1499: {
+                //     items: 3,
+                // }
+
+                
+                599: {
                     items: 1,
                 },
-                652: {
+                899: {
+                    items: 2
+                },
+                1199: {
                     items: 2,
                 },
-                1414: {
-                    items: 3
-                },
-                1440: {
-                    items: 3,
-                },
-                1499: {
+                1400: {
                     items: 3,
                 }
             },
