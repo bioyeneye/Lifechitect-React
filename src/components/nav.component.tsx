@@ -49,7 +49,7 @@ export default class Nav extends Component<{}, NavState> {
                 <div className={"collapse navbar-collapse " + show} id="menu-content" style={menucontentStyle}>
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href={createEmptyLink()}>How It Works</a>
+                            <a className="nav-link" href="#howItWorks">How It Works</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#works">Contact Us</a>
