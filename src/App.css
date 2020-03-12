@@ -32,15 +32,10 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 1399px) {
+@media screen and (max-width: 1373px) {
     
     .testimonial_content .testimonial_cards .owl-item{
         flex-grow: 1;
         flex-basis: 0;
     }
 }
-
-/* .testimonial_content .testimonial_cards .owl-item{
-    flex-grow: 1;
-    flex-basis: 0;
-} */
