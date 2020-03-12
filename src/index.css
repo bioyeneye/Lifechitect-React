@@ -9952,18 +9952,19 @@ h3 {
   margin-top: 0.75em;
   padding: 0.25em 0;
   color: rgba(41, 73, 72, 0.9);
-  justify-content: space-between;
 }
 .event_content .scrolling-wrapper .card_text_details .header {
   font-weight: 700;
   margin-bottom: 0.296em;
 }
 .event_content .scrolling-wrapper .card_text_details .left {
-  padding-right: 1.25em;
+  padding-right: 1em;
+  flex: 0 1 50%;
 }
 .event_content .scrolling-wrapper .card_text_details .right {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
-  padding-left: 1.25em;
+  padding-left: 1em;
+  flex: 0 1 50%;
 }
 .event_content .scrolling-wrapper .card .one {
   background: linear-gradient(148.62deg, #F74F5A 0%, #FF727A 100%);
