@@ -38,7 +38,7 @@ export default class Nav extends Component<{}, NavState> {
                         <a className="nav-link" href="#howItWorks">How It Works</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#works">Contact Us</a>
+                        <a className="nav-link" href="#contactus">Contact Us</a>
                     </li>
                 </ul>
                 <button className="navbar-toggler d-md-none" onClick={this.toggleMenu}>
@@ -52,7 +52,7 @@ export default class Nav extends Component<{}, NavState> {
                             <a className="nav-link" href="#howItWorks">How It Works</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#works">Contact Us</a>
+                            <a className="nav-link" href="#contactus">Contact Us</a>
                         </li>
                     </ul>
                 </div>
