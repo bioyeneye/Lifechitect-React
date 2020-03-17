@@ -8,10 +8,10 @@ class CustomIntroSection extends React.Component<CustomIntroSectionProp, {}> {
 
     render () {
         return (
-            <section className="intro">
-                <div className="row intro_content">
+            <section className="termPrivacyIntro">
+                <div className="row termPrivacyIntro_content">
                     <div className="col-12">
-                        <h3 className="intro_content_text text-center">{this.props.intro}</h3>
+                        <h3 className="termPrivacyIntro_content_text text-center">{this.props.intro}</h3>
                     </div>
                 </div>
             </section>

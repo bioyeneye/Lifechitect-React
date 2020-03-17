@@ -2,10 +2,10 @@ import React from 'react';
 
 const TermsBodySection = () => {
     return (
-    <section className="body">
-        <div className="row body_content">
+        <section className="termPrivacybody">
+        <div className="row termPrivacybody_content">
             <div className="col-11 col-lg-8">
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>Effective January 24, 2020.</h3>
                     <div className="text">
                         <p>
@@ -32,7 +32,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>SCOPE</h3>
                     <div className="text">
                         <p>
@@ -43,7 +43,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>GENERAL USE</h3>
                     <div className="text">
                         <p>
@@ -66,7 +66,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>ACCOUNT SETUP</h3>
                     <div className="text">
                         <p>
@@ -97,7 +97,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>YOUR CONTENT IN OUR SERVICE</h3>
                     <div className="text">
                         <p>
@@ -111,7 +111,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>SOFTWARE IN OUR SERVICE</h3>
                     <div className="text">
                         <p>
@@ -126,7 +126,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>PRIVACY PROTECTION</h3>
                     <div className="text">
                         <p>
@@ -136,7 +136,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>LEGAL COMPLIANCE</h3>
                     <div className="text">
                         <p>
@@ -152,7 +152,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>INTELLECTUAL PROPERTY</h3>
                     <div className="text">
                         <p>
@@ -165,7 +165,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>NOTICES AND MESSAGE</h3>
                     <div className="text">
                         <p>
@@ -181,7 +181,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>INDEMNIFICATION</h3>
                     <div className="text">
                         <p>
@@ -196,7 +196,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>INTELLECTUAL PROPERTY INFRINGEMENT</h3>
                     <div className="text">
                         <p>
@@ -213,7 +213,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>WARRANTY DISCLAIMER</h3>
                     <div className="text">
                         <p>
@@ -234,7 +234,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>LIMITATION OF LIABILITY</h3>
                     <div className="text">
                         <p>
@@ -268,7 +268,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>GENERAL TERMS</h3>
                     <div className="text">
                         <p>
@@ -279,7 +279,7 @@ const TermsBodySection = () => {
                         </p>
                     </div>
                 </div>
-                <div className="body_content_text">
+                <div className="termPrivacybody_content_text">
                     <h3>CHANGES</h3>
                     <div className="text">
                         <p>
