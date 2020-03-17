@@ -1,5 +1,4 @@
 import React from 'react';
-import { createEmptyLink } from '../shared/helpers.ts/linkhelpers';
 
 const IntroSection = () => {
     return (
