@@ -39,3 +39,13 @@
         flex-basis: 0;
     }
 }
+
+.centralize-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        height: 100vh;
+
+}

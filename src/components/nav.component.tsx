@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { createEmptyLink } from '../shared/helpers.ts/linkhelpers';
-
 
 interface NavState {
     menu: boolean
@@ -30,7 +28,7 @@ export default class Nav extends Component<{}, NavState> {
 
         return (
             <nav className="navbar" id="navbar">
-                <a className="navbar-brand" href={createEmptyLink()}>
+                <a className="navbar-brand" href="/">
                     <img src="svgs/lifechitect_full_logo.svg" alt="Lifechitect's logo" />
                 </a>
                 <ul className="nav d-none d-md-flex">
@@ -52,7 +50,7 @@ export default class Nav extends Component<{}, NavState> {
                             <a className="nav-link" href="#howItWorks">How It Works</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact Us</a>
+                            <a className="nav-link" href="#contactus">Contact Us</a>
                         </li>
                     </ul>
                 </div>

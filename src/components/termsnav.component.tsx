@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { createEmptyLink } from '../shared/helpers.ts/linkhelpers';
-
 
 interface TermsNavState {
     menu: boolean
@@ -30,15 +28,15 @@ export default class TermsNav extends Component<{}, TermsNavState> {
 
         return (
             <nav className="navbar" id="navbar">
-                <a className="navbar-brand" href={createEmptyLink()}>
+                <a className="navbar-brand" href="/">
                     <img src="svgs/lifechitect_full_logo.svg" alt="Lifechitect's logo" />
                 </a>
                 <ul className="nav d-none d-md-flex">
                     <li className="nav-item">
-                        <a className="nav-link" href="#howItWorks">Term of Use</a>
+                        <a className="nav-link" href="/terms">Term of Use</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#contactus">Privacy Policy</a>
+                        <a className="nav-link" href="/privacy">Privacy Policy</a>
                     </li>
                 </ul>
                 <button className="navbar-toggler d-md-none" onClick={this.toggleMenu}>
@@ -49,10 +47,10 @@ export default class TermsNav extends Component<{}, TermsNavState> {
                 <div className={"collapse navbar-collapse " + show} id="menu-content" style={menucontentStyle}>
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#howItWorks">Term of Use</a>
+                            <a className="nav-link" href="/terms">Term of Use</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Privacy Policy</a>
+                            <a className="nav-link" href="/privacy">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>

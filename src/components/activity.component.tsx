@@ -55,23 +55,6 @@ export default class ActivtiySection extends Component<{}, ActivtiySectionState>
                         </div>
                         <div className="countdown">
                             <p className="counter">
-                                {/* //2,661,120 */}
-                                {/* <FlipNumbers
-                                    play
-                                    color="#212529"
-                                    background="#00000000"
-                                    width={50}
-                                    height={133}
-                                    numbers={`${this.state.trackervalue}`}
-                                /> */}
-
-                                {/* <CountUp
-                                    start={this.state.initialtrackervalue}
-                                    end={this.state.trackervalue}
-                                    duration={2}
-                                    separator=","
-                                /> */}
-
                                 <CountUp separator="," end={this.state.trackervalue} redraw={false}>
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor 

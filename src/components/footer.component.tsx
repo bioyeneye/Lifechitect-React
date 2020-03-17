@@ -1,5 +1,5 @@
 import React from 'react';
-import { createMailtoLink, createEmptyLink } from '../shared/helpers.ts/linkhelpers';
+import { createMailtoLink } from '../shared/helpers.ts/linkhelpers';
 
 
 
@@ -8,7 +8,7 @@ const FooterSection = () => {
         <footer className="footer" id="contactus">
             <div className="footer-content row align-items-baseline">
                 <div className="col-12 col-xl-3 brandLogo">
-                    <a className="navbar-brand" href="https://www.liferithims.com">
+                    <a className="navbar-brand" href="/">
                         <img src="svgs/lifechitect_full_logo_white.svg" alt="" />
                     </a>
                 </div>
@@ -24,10 +24,10 @@ const FooterSection = () => {
                     <div className="footer_links">
                         <ul className="nav flex-column">
                             <li className="nav-item">
-                                <a className="nav-link" href={createEmptyLink()} target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                                <a className="nav-link" href="/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={createEmptyLink()} target="_blank" rel="noopener noreferrer">Terms of Use</a>
+                                <a className="nav-link" href="/terms" target="_blank" rel="noopener noreferrer">Terms of Use</a>
                             </li>
                         </ul>
                     </div>
